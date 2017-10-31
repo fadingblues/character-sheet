@@ -33,6 +33,10 @@
   \nfont #1 && && && && \tabularnewline\cmidrule(){3-3}\cmidrule(){5-5}\cmidrule(){7-7}\cmidrule(){9-9}\cmidrule(){11-11}\cmidrule(){13-13}
 }
 
+\newcommand\specialrow[1]{
+  \nfont \textbf{#1} && && && & \tabularnewline\cmidrule(){3-3}\cmidrule(){5-5}\cmidrule(){7-7}\cmidrule(){9-9}\cmidrule(){11-11}
+}
+
 \newcommand\attackrow[2]{
   \nfont #1 && & $+$ & {\color{gray} \lfont (#2)} & $+$ && $+$ && $+$ && $=$ & \tabularnewline\cmidrule(){3-3}\cmidrule(){5-5}\cmidrule(){7-7}\cmidrule(){9-9}\cmidrule(){11-11}\cmidrule(){13-13}
 }
